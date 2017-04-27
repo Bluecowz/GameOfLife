@@ -85,6 +85,8 @@ class GameOfLife(Frame):
     def check_cell(self, y, x):
         buddy_num = 0
 
+        # Could be replaced with nested for loops. 
+        
         if self.cells[y + 1][x]['bg'] == "black":
             buddy_num += 1
         if self.cells[y - 1][x]['bg'] == "black":
