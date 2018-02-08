@@ -1,6 +1,6 @@
 # Conway's Game of Life
 # Mike Gallant - 2017
-# mgall15@lsu.edu
+# bluecowradio@gmail.com
 
 # Rules:
 # Any live cell with fewer than two live neighbours dies,
@@ -36,7 +36,6 @@ class GameOfLife(Frame):
 
     def build_ui(self):
         self.top_frame = Frame(self.parent).pack(side=TOP)
-
         self.set_dem = Button(self.top_frame, text="Start", command=self.start, height=1)
         self.set_dem.pack(side=LEFT)
         self.randomize = Button(self.top_frame, text="Randomize", command=self.rand_board, height=1)
