@@ -1,6 +1,5 @@
 # Conway's Game of Life
 # Mike Gallant - 2017
-# bluecowradio@gmail.com
 
 # Rules:
 # Any live cell with fewer than two live neighbours dies,
